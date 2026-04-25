@@ -211,7 +211,7 @@ export default function RegistrationModal({ isOpen, onClose, serviceTitle }: Reg
             {/* Instruction if URL is missing */}
             <div className="px-8 pb-4">
               <p className="text-[8px] text-white/10 text-center uppercase tracking-widest">
-                Data will be sent to Google Sheets via secure endpoint.
+                Dữ liệu sẽ được gửi về Google Sheets qua cổng kết nối bảo mật.
               </p>
             </div>
           </motion.div>

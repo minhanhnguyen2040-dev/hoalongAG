@@ -7,12 +7,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-32">
           <div className="lg:col-span-2">
-            <h2 className="text-4xl font-black mb-8 tracking-tighter flex items-center gap-2">
-              <div className="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center">
-                <span className="text-black text-xl">H</span>
-              </div>
-              HOA LONG<span className="text-emerald-400 italic ml-1">AG</span>
-            </h2>
+            <div className="flex items-center gap-3 mb-8">
+              <h2 className="text-3xl font-black tracking-tighter">
+                HOA LONG<span className="text-emerald-400 italic ml-1">AG</span>
+              </h2>
+            </div>
             <p className="max-w-md text-gray-400 font-medium text-lg mb-12 italic">
               Nâng tầm giá trị bất động sản qua công nghệ hình ảnh VR360 và Drone 4K. Tọa lạc tại Hoa Long, xã Kim Long, TP.HCM.
             </p>
